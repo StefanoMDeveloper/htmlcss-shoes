@@ -33,8 +33,11 @@ main div{
 p{
     text-transform: uppercase;
     font-size: 45px;
-    position: relative;
-    bottom: -10%;
+    width: 50%;
+    transform: translate(-50%,60%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 #converse p{
@@ -42,7 +45,11 @@ p{
 }
 
 img{
-    transform: translate(0%,20%);
+    transform: translate(-50%,-80%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
 }
 
 nav ul li{
@@ -68,3 +75,8 @@ nav ul li a{
     line-height: 40px;
     padding: 10px;
 }
+
+div{
+    position: relative;
+}
+
